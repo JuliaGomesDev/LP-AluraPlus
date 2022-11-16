@@ -66,7 +66,7 @@ body {
   margin: 0 auto 1em;
 }
 
-.container .container__button.button_second {
+.container .container__button.variation_button {
   background-color: transparent;
   border: 1px solid var(--primary-color);
 }
@@ -76,18 +76,27 @@ body {
   color: var(--second-color);
 }
 
-.container.first_section .first_section__image {
-  width: 70%;
+.container.container__sections {
+  margin: 0 10em;
+}
+
+.container.container__sections .section__image {
+  width: 80%;
   margin: auto;
 }
 
-.container.first_section .container__description {
-  margin: 0 15em 0 5em;
+.container.container__sections .container__description {
+  padding: 0 2em;
 }
 
-.container.first_section .description__title {
+.container .description__title {
   font-size: 48px;
   color: var(--primary-color);
 
   margin-bottom: 0.5rem;
+}
+
+.container .second_section__button {
+  display: inline-block;
+  margin-top: 1em;
 }
